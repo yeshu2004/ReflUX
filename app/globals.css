@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+/* Custom Font */
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+body {
+  font-family: 'ClashDisplay', sans-serif;
+}
