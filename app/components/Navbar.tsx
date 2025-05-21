@@ -119,6 +119,7 @@ export default function Navbar() {
                   onClick={toggleMenu}
                   initial={{opacity: 0}}
                   animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}}
+                  exit={{opacity: 0}}
                   custom={0}
                 >
                   SCHEDULE
@@ -129,26 +130,19 @@ export default function Navbar() {
                   onClick={toggleMenu}
                   initial={{opacity: 0}}
                   animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}}
+                  exit={{opacity: 0}}
                   custom={1}
                 >
                   SPEAKERS
                 </motion.a>
-                <motion.a
-                  href="#faqs"
-                  className="hover:text-gray-300 transition"
-                  onClick={toggleMenu}
-                  initial={{opacity: 0}}
-                  animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}}
-                  custom={2}
-                >
-                  FAQS
-                </motion.a>
+                
                 <motion.a
                   href="#about"
                   className="hover:text-gray-300 transition"
                   onClick={toggleMenu}
                   initial={{opacity: 0}}
                   animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}}
+                  exit={{opacity: 0}}
                   custom={3}
                 >
                   ABOUT
@@ -159,6 +153,7 @@ export default function Navbar() {
                   variants={itemVariants}
                   initial={{opacity: 0}}
                   animate={{opacity: 1, transition: {duration: 0.3}}}
+                  exit={{opacity: 0}}
                   custom={5}
                 >
                   <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156" target="_blank"
