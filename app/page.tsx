@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import InfiniteCarousel from "./components/InfiniteCarousel";
 import EventHighlights from "./components/EventHighlights";
@@ -5,8 +7,27 @@ import Speaker from "./components/Speaker";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { MdArrowOutward } from "react-icons/md";
+import Lenis from "lenis";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    const lenis = new Lenis({
+      autoRaf: true,
+    });
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+    return () => {
+    };
+  }, []);
+
+
   return (
     <div className="">
       <div className="relative md:h-[100dvh] h-[85vh] text-white font-clash overflow-hidden bg-[#0F0D18]">
