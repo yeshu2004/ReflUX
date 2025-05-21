@@ -98,7 +98,7 @@ export default function Navbar() {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="lg:hidden fixed top-0 left-0 w-full h-[100vh] bg-[#0F0D18] z-50"
+              className="lg:hidden fixed top-0 left-0 w-full h-[100dvh] bg-[#0F0D18] z-50"
               variants={menuVariants}
               initial="hidden"
               animate="visible"
