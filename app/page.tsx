@@ -8,39 +8,48 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { MdArrowOutward } from "react-icons/md";
 import Lenis from "lenis";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
 
+ const [mobileHeight, setMobileHeight] = useState<string | undefined>();
+
   useEffect(() => {
+    // Set --vh
     const setVH = () => {
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+      // Set inline style ONLY if screen is small (simulate < md)
+      if (window.innerWidth < 768) {
+        setMobileHeight(`calc(var(--vh, 1vh) * 85)`);
+      } else {
+        setMobileHeight(undefined);
+      }
     };
 
     setVH();
     window.addEventListener("resize", setVH);
 
-    const lenis = new Lenis({
-      autoRaf: true,
-    });
-
-    function raf(time: number) {
+    // Lenis setup
+    const lenis = new Lenis({ autoRaf: true });
+    const raf = (time: number) => {
       lenis.raf(time);
       requestAnimationFrame(raf);
-    }
-
+    };
     requestAnimationFrame(raf);
+
     return () => {
       lenis.destroy();
       window.removeEventListener("resize", setVH);
     };
-  }, []);
+  }, []);;
 
 
   return (
     <div className="">
-      <div style={{ height: "calc(var(--vh, 1vh) * 85)" }} className="relative md:h-[100dvh] text-white font-clash overflow-hidden bg-[#0F0D18]">
+      <div style={mobileHeight ? { height: mobileHeight } : {}}
+      className="relative md:h-[100vh] text-white font-clash overflow-hidden bg-[#0F0D18]">
         <Image
           src="/bgimg.webp"
           alt="Background"
@@ -176,8 +185,12 @@ export default function Home() {
                 href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center gap-2 justify-center"
               >
               get your ticket
+              <span className="text-xl">
+                    <MdArrowOutward />
+                  </span>
               </a>
             </button>
           </div>
