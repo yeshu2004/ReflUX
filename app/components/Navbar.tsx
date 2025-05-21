@@ -64,7 +64,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="relative z-20 md:px-10 px-5 py-7 h-full w-full">
+    <div className={` relative md:px-10 px-5 py-7 h-full w-full`}>
       <div>
         <div className="flex justify-between lg:items-end items-center w-full h-full">
           <h1 className="md:text-4xl text-2xl font-semibold">ReflUX</h1>
@@ -98,7 +98,7 @@ export default function Navbar() {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="lg:hidden fixed top-0 left-0 w-full h-[100dvh] bg-[#0F0D18] z-50"
+              className="lg:hidden z-50 fixed top-0 left-0 w-full h-[100dvh] bg-[#0F0D18]"
               variants={menuVariants}
               initial="hidden"
               animate="visible"
