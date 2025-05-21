@@ -75,11 +75,16 @@ export default function Home() {
               <button className="lg:block cursor-pointer hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition font-medium">
                 <a href="#workshop-highlights">EXPLORE EVENTS</a>
               </button>
-                            <button className="cursor-pointer lg:hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white md:flex hover:text-black transition hidden font-medium">
-                <a href="#workshop-highlights" className="flex items-center justify-between gap-2">BUY E-TICKETS
-              <span className="text-xl">
-                <MdArrowOutward />
-              </span></a>
+              <button className="cursor-pointer lg:hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white md:flex hover:text-black transition hidden font-medium">
+                <a
+                  href="#workshop-highlights"
+                  className="flex items-center justify-between gap-2"
+                >
+                  BUY E-TICKETS
+                  <span className="text-xl">
+                    <MdArrowOutward />
+                  </span>
+                </a>
               </button>
             </div>
             <div className="w-1/2 text-left flex items-center">
