@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Speaker() {
   return (
-    <div className="min-h-screen w-full bg-[#0F0D18] text-white pt-10 relative z-20">
+    <div className="min-h-screen w-full bg-[#0F0D18] text-white md:py-10 pt-10 relative z-20">
           <h1 className="uppercase md:text-4xl text-2xl tracking-wide md:px-10 px-5 py-5 font-medium">
             Guest Speakers
           </h1>
@@ -78,14 +78,6 @@ export default function Speaker() {
               VISIT INSTAGRAM
             </Link>
             </div>
-          </div>
-
-          {/* Card 4: Speakers */}
-          <div className="rounded-lg p-2 text-left border border-gray-700 hidden md:block">
-            <div className="bg-black h-[50vh] rounded-lg w-full overflow-hidden relative">
-              <Image alt="" src={'/blur.jpg'} fill priority quality={75} className="object-cover object-center"/>
-            </div>
-           <h1 className="uppercase tracking-wider md:text-[2vw] text-2xl pt-5">STILL WAITING FOR THE conformation...</h1>
           </div>
         </div>
         </div>
