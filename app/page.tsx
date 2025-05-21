@@ -123,9 +123,9 @@ export default function Home() {
               University! ReflUX teaches UX design and tech skills using Figma,
               no-code tools, and web frameworks to build digital prototypes.
             </p>
-            <button className="bg-transparent border-2 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <a href="#workshop-highlights" className="text-center  bg-transparent border-2 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
               VIEW SCHEDULE
-            </button>
+            </a>
           </div>
 
           {/* Card 2: Events */}
