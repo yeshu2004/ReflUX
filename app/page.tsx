@@ -58,7 +58,7 @@ export default function Home() {
           className="object-cover object-center z-0"
         />
         <Navbar />
-        <div className="bg-[#0F0D18] w-[85%] md:w-[82%] h-fit absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+        <div className="bg-[#0F0D18] z-50 w-[85%] md:w-[82%] h-fit absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
           <h1 className="text-[13vw] leading-none font-semibold text-center py-5">
             REFLUX &apos;25
           </h1>
