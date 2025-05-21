@@ -44,7 +44,43 @@ export default function Speaker() {
             </div>
           </div>
 
-          {/* Card 3: Speakers */}
+          {/* Card 3 */}
+           <div className="rounded-lg p-2 text-left border border-gray-700">
+            <div className="bg-black h-[50vh] rounded-lg w-full overflow-hidden relative">
+              <Image alt="" src={'/saurabh_saini.jpeg'} fill priority quality={75} className="object-cover object-center"/>
+            </div>
+            <h2 className="uppercase pt-5 tracking-wider font-medium text-xl">Saurabh Saini</h2>
+            <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">UX Professor @PW Skills | Ex Deloitte | YouTube 45K+ | 17K+ on Linkedin </h3>
+            
+            <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
+              <Link href={'https://www.linkedin.com/in/saurabhsainiux/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT LINKEDIN
+            </Link>
+            <Link href={'https://www.instagram.com/saurabhux/'} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT INSTAGRAM
+            </Link>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+           <div className="rounded-lg p-2 text-left border border-gray-700">
+            <div className="bg-black h-[50vh] rounded-lg w-full overflow-hidden relative">
+              <Image alt="" src={'/charvi_mathur.jpeg'} fill priority quality={75} className="object-cover object-center"/>
+            </div>
+            <h2 className="uppercase pt-5 tracking-wider font-medium text-xl">Charvi mathur</h2>
+            <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">Product Designer at Zomato | M.des. NIFT Delhi</h3>
+            
+            <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
+              <Link href={'https://www.linkedin.com/in/charvidesigns/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT LINKEDIN
+            </Link>
+            <Link href={''} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT INSTAGRAM
+            </Link>
+            </div>
+          </div>
+
+          {/* Card 4: Speakers */}
           <div className="rounded-lg p-2 text-left border border-gray-700 hidden md:block">
             <div className="bg-black h-[50vh] rounded-lg w-full overflow-hidden relative">
               <Image alt="" src={'/blur.jpg'} fill priority quality={75} className="object-cover object-center"/>
