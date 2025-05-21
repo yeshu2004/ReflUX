@@ -107,7 +107,8 @@ export default function Navbar() {
               <div className="flex justify-between items-center md:px-10 py-7 px-5 ">
                 <h1 className="md:text-4xl text-2xl font-semibold">ReflUX</h1>
                 <motion.button initial={{opacity: 0}}
-                  animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}} onClick={toggleMenu} className="text-2xl">
+                  animate={{opacity: 1, transition: {duration: 0.3, delay:0.9}}}
+                  exit={{opacity: 0}} onClick={toggleMenu} className="text-2xl">
                   <RxCross1 />
                 </motion.button>
               </div>
