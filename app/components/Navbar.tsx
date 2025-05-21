@@ -5,6 +5,7 @@ import { TfiAlignJustify } from "react-icons/tfi";
 import { motion, AnimatePresence } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
 import { MdArrowOutward } from "react-icons/md";
+import Footer from "./Footer";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -110,7 +111,7 @@ export default function Navbar() {
                   <RxCross1 />
                 </motion.button>
               </div>
-              <nav className="flex flex-col items-center gap-6 text-lg mt-10">
+              <nav className="flex flex-col items-center gap-6 text-xl font-medium mt-10">
                 <motion.a
                   href="#workshop-highlights"
                   className="hover:text-gray-300 transition"
@@ -160,14 +161,17 @@ export default function Navbar() {
                   custom={5}
                 >
                   <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156" target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer" className="flex items-center gap-2">
                     BUY TICKETS
-                  </a>
                   <span className="text-2xl">
                     <MdArrowOutward />
                   </span>
+                  </a>
                 </motion.button>
               </nav>
+              <div className="absolute bottom-0 left-0 w-full">
+                <Footer/>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

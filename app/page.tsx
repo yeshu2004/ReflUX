@@ -3,6 +3,8 @@ import InfiniteCarousel from "./components/InfiniteCarousel";
 import EventHighlights from "./components/EventHighlights";
 import Speaker from "./components/Speaker";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
                 5-day online sprint designed to bridge the gap between UX design
                 and technical execution
               </h5>
-              <button className="mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition hidden md:flex font-medium">
+              <button className="hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition md:flex font-medium">
                 EXPLORE EVENTS
               </button>
             </div>
@@ -54,8 +56,14 @@ export default function Home() {
               5-day online sprint designed to bridge the gap between UX design
               and technical execution
             </h5>
-            <button className="my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-400 hover:bg-white hover:text-black transition w-full">
+            <button className="hidden lg:block my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
               EXPLORE EVENTS
+            </button>
+            <button className="tracking-wider flex items-center justify-center gap-2 lg:hidden my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
+              BUY E-TICKETS
+              <span className="text-xl">
+                                  <MdArrowOutward />
+                                </span>
             </button>
           </div>
         </div>
@@ -127,7 +135,7 @@ export default function Home() {
               Join
             </h1>
             <h1 className="lg:text-7xl text-4xl font-medium leading-none">
-              free
+              Now
             </h1>
             <h4 className="text-zinc-400 pb-5 md:pt-0 pt-1">
               Register for the online workshop!
@@ -162,73 +170,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="h-fit w-full bg-[#0F0D18] text-white pt-5 relative z-20 overflow-x-hidden">
-        <div className="md:px-10 px-5 flex items-center pt-10">
-          <h1 className="lg:text-[12vw] md:text-[10vw] text-4xl leading-none font-medium py-5">
-            REFLUX &apos;25
-          </h1>
-          <div className=" text-left flex items-center">
-            <div className="h-fit -rotate-90 w-fit">
-              <p className="text-[#0049EF] lg:text-5xl md:text-4xl text-base leading-none">
-                2025
-              </p>
-            </div>
-            <div className="relative lg:-left-10 md:-left-6 -left-3 w-full">
-              <h3 className="lg:text-6xl md:text-5xl text-2xl">May</h3>
-              <p className="lg:text-[5vw] md:text-5xl text-2xl leading-none  tracking-wide">
-                27–31
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="md:px-10 px-5 py-5">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between border-t border-zinc-700 pt-5 text-xs tracking-wider gap-4 text-center md:text-left">
-              {/* Left Side Text */}
-              <h1 className="text-zinc-400">
-                THIS WEBSITE WAS MADE FOR{" "}
-                <span className="text-white">UX CLUB</span>. CLUB BY{" "}
-                <span className="text-white">VIT BHOPAL UNIVERSITY</span>
-              </h1>
-
-              {/* Right Side Social Links */}
-              <div className="flex flex-wrap items-center justify-center md:justify-end gap-3 uppercase">
-                <a
-                  href="https://www.linkedin.com/company/uxclub/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://www.instagram.com/uxclub.vitb?igsh=MTl3cWE4aGM2N24yaQ=="
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition"
-                >
-                  Instagram
-                </a>
-                <a
-                  href="https://chat.whatsapp.com/JmjCM3Kl6xhAeVGPe5dSWu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition"
-                >
-                  WhatsApp
-                </a>
-                <a
-                  href="mailto:ux_club@vitbhopal.ac.in"
-                  className="hover:text-white transition"
-                >
-                  Gmail
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer/>
     </div>
   );
 }
