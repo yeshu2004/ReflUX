@@ -17,10 +17,10 @@ export default function Speaker() {
             <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">Design & Product at CRED | Founded DesignDrug.co | 50K+ on Linkedin</h3>
             
             <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
-              <Link href={'https://www.linkedin.com/in/atulkhola/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border-2 text-center border-zinc-700 rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              <Link href={'https://www.linkedin.com/in/atulkhola/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border text-center border-zinc-700 rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT LINKEDIN
             </Link>
-            <Link href={'/https://www.instagram.com/pixelandpump?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border-2 border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+            <Link href={'/https://www.instagram.com/pixelandpump?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT INSTAGRAM
             </Link>
             </div>
@@ -35,10 +35,10 @@ export default function Speaker() {
             <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">AVP of Design at Swiggy | 400K+ on Instagram | 100K+ on Youtube</h3>
             
             <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
-              <Link href={'https://www.linkedin.com/in/saptarshipr/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border-2 border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              <Link href={'https://www.linkedin.com/in/saptarshipr/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT LINKDIN
             </Link>
-            <Link href={'https://www.instagram.com/saptarshiux?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border-2 border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+            <Link href={'https://www.instagram.com/saptarshiux?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT INSTAGRAM
             </Link>
             </div>

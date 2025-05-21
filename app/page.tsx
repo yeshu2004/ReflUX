@@ -72,8 +72,8 @@ export default function Home() {
                 5-day online sprint designed to bridge the gap between UX design
                 and technical execution
               </h5>
-              <button className="hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition md:flex font-medium">
-                EXPLORE EVENTS
+              <button className="cursor-pointer hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition md:flex font-medium">
+                <a href="#workshop-highlights">EXPLORE EVENTS</a>
               </button>
             </div>
             <div className="w-1/2 text-left flex items-center">
@@ -97,7 +97,7 @@ export default function Home() {
               and technical execution
             </h5>
             <button className="hidden lg:block my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
-              EXPLORE EVENTS
+              <a href="#workshop-highlights">EXPLORE EVENTS</a>
             </button>
             <button className="tracking-wider flex items-center justify-center gap-2 lg:hidden my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
               BUY E-TICKETS
@@ -109,59 +109,61 @@ export default function Home() {
         </div>
       </div>
       <InfiniteCarousel />
-      <div className="min-h-screen w-full bg-[#0F0D18] text-white md:py-10 py-5 relative z-20">
-        <h1 className="uppercase md:text-4xl text-2xl tracking-wide md:px-10 px-5 pt-5 pb-10 font-medium">
-          Join Us for ReflUX Workshop May&apos;25
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-4 w-full md:px-10 px-5">
-          {/* Card 1: Days */}
-          <div className="border-zinc-800 border-2 rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left">
-            <p className="md:text-[13vw] text-9xl leading-none mb-2">5</p>
-            <p className="lg:text-3xl text-xl font-medium mb-2">DAYS</p>
-            <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
-              Join a 5-day online sprint by The UX Club of VIT Bhopal
-              University! ReflUX teaches UX design and tech skills using Figma,
-              no-code tools, and web frameworks to build digital prototypes.
-            </p>
-            <a href="#workshop-highlights" className="text-center  bg-transparent border-2 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
-              VIEW SCHEDULE
-            </a>
-          </div>
+      <div id="about">
+        <div className="min-h-screen w-full bg-[#0F0D18] text-white md:py-10 py-5 relative z-20">
+          <h1 className="uppercase md:text-4xl text-2xl tracking-wide md:px-10 px-5 pt-5 pb-10 font-medium">
+            Join Us for ReflUX Workshop May&apos;25
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-4 w-full md:px-10 px-5">
+            {/* Card 1: Days */}
+            <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left">
+              <p className="md:text-[13vw] text-9xl leading-none mb-2">5</p>
+              <p className="lg:text-3xl text-xl font-medium mb-2">DAYS</p>
+              <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
+                Join a 5-day online sprint by The UX Club of VIT Bhopal
+                University! ReflUX teaches UX design and tech skills using Figma,
+                no-code tools, and web frameworks to build digital prototypes.
+              </p>
+              <a href="#workshop-highlights" className="text-center  bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+                VIEW SCHEDULE
+              </a>
+            </div>
 
-          {/* Card 2: Events */}
-          <div className="border-zinc-800 border-2 rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left ">
-            <p className="md:text-[13vw] text-9xl leading-none mb-2">1</p>
-            <p className="lg:text-3xl text-xl font-medium mb-2">HACKTHON</p>
-            <p className="text-gray-300 mb-6 lg:text-lg tmd:ext-sm">
-              Compete in ReflUX’s 1-day hackathon! Team up to create real-world
-              digital solutions, showcase your skills, and challenge yourself in
-              a dynamic, creative setting.
-            </p>
-            <button className="bg-transparent border-2 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
-              EXPLORE HACKTHON
-            </button>
-          </div>
+            {/* Card 2: Events */}
+            <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left ">
+              <p className="md:text-[13vw] text-9xl leading-none mb-2">1</p>
+              <p className="lg:text-3xl text-xl font-medium mb-2">HACKTHON</p>
+              <p className="text-gray-300 mb-6 lg:text-lg tmd:ext-sm">
+                Compete in ReflUX’s 1-day hackathon! Team up to create real-world
+                digital solutions, showcase your skills, and challenge yourself in
+                a dynamic, creative setting.
+              </p>
+              <button className="bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+                EXPLORE HACKTHON
+              </button>
+            </div>
 
-          {/* Card 3: Speakers */}
-          <div className="border-zinc-800 border-2 rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left">
-            <p className="md:text-[13vw] text-9xl leading-none mb-2">2</p>
-            <p className="lg:text-3xl text-xl font-medium mb-2">SPEAKERS</p>
-            <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
-              Hear from 2 industry experts at ReflUX! They’ll share UX design
-              insights, offer project feedback, and inspire you to grow as a
-              designer or developer.
-            </p>
-            <button className="bg-transparent border-2 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl font-medium text-sm hover:bg-white hover:text-gray-900 transition">
-              VIEW SPEAKERS
-            </button>
+            {/* Card 3: Speakers */}
+            <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left">
+              <p className="md:text-[13vw] text-9xl leading-none mb-2">2</p>
+              <p className="lg:text-3xl text-xl font-medium mb-2">SPEAKERS</p>
+              <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
+                Hear from 2 industry experts at ReflUX! They’ll share UX design
+                insights, offer project feedback, and inspire you to grow as a
+                designer or developer.
+              </p>
+              <a href="#speakers" className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl font-medium text-sm hover:bg-white hover:text-gray-900 transition">
+                VIEW SPEAKERS
+              </a>
+            </div>
           </div>
         </div>
       </div>
       <div id="workshop-highlights"></div>
       <EventHighlights />
-      <div id="speakers"></div>
-      <Speaker />
-      <div id="faqs"></div>
+      <div id="speakers">
+        <Speaker />
+      </div>
 
       {/* GET TICKET */}
       <div className="h-fit w-full bg-[#0F0D18] text-white pt-5 relative z-20 overflow-x-hidden">
@@ -170,7 +172,7 @@ export default function Home() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-10 gap-4 w-full md:px-10 px-5">
           {/* Card 1: Days */}
-          <div className="border-zinc-800 border-2 rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left uppercase h-fit">
+          <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left uppercase h-fit">
             <h1 className="lg:text-7xl text-4xl font-medium leading-none">
               Join
             </h1>
@@ -180,7 +182,7 @@ export default function Home() {
             <h4 className="text-zinc-400 pb-5 md:pt-0 pt-1">
               Register for the online workshop!
             </h4>
-            <button className="bg-transparent border-2 uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
               <a
                 href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
                 target="_blank"
@@ -196,7 +198,7 @@ export default function Home() {
           </div>
 
           {/* Card 2: Events */}
-          <div className="border-zinc-800 border-2 rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left uppercase h-fit">
+          <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left uppercase h-fit">
             <h1 className="lg:text-7xl text-4xl font-medium leading-none">
               EXPLORE
             </h1>
@@ -206,7 +208,7 @@ export default function Home() {
             <h4 className="text-zinc-400 pb-5 md:pt-0 pt-1">
               Discover exciting sessions and speakers.lg:
             </h4>
-            <button className="bg-transparent border-2 uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
               CHECK THE SCHEDULE
             </button>
           </div>

@@ -26,7 +26,7 @@ export default function EventHighlights() {
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">opening workshop</h5>
             <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">Introduction to UX Design: Discover how to craft user-centered interfaces.</h2>
-            <button className="bg-transparent border-2 md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
           </button>
         </div>
@@ -48,7 +48,7 @@ export default function EventHighlights() {
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">workshop</h5>
             <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">Figma & No-Code Tools Workshop: Turn ideas into apps with zero coding</h2>
-            <button className="bg-transparent border-2 md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
           </button>
         </div>
@@ -70,7 +70,7 @@ export default function EventHighlights() {
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">workshop</h5>
             <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">CODE HANDOFF + HACKTHON KICKOFF: Code a simple UI in React & Tailwind</h2>
-            <button className="bg-transparent border-2 md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
           </button>
         </div>
@@ -92,7 +92,7 @@ export default function EventHighlights() {
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">Hackathon</h5>
             <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">LIVE HACKTHON RESULTS: submit your final design and evaluation by experts.</h2>
-            <button className="bg-transparent border-2 md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
           </button>
         </div>
@@ -114,7 +114,7 @@ export default function EventHighlights() {
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">GUEST WORKSHOP</h5>
             <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">expert pannel & Industry Insights: Learn from experts and clear your doubts</h2>
-            <button className="bg-transparent border-2 md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
           </button>
         </div>
