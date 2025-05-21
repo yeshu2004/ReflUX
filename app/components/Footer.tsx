@@ -31,7 +31,7 @@ export default function Footer() {
               </h1>
 
               {/* Right Side Social Links */}
-              <div className="flex flex-wrap items-center justify-center md:justify-end gap-3 uppercase">
+              <div className="flex flex-wrap items-center justify-center md:justify-end md:gap-3 gap-5 uppercase">
                 <a
                   href="https://www.linkedin.com/company/uxclub/"
                   target="_blank"
