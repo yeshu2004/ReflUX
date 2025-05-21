@@ -25,10 +25,12 @@ export default function EventHighlights() {
                 <h2 className="uppercase border-l-[1px] md:text-[8vw] text-2xl border-b-[1px] leading-none border-zinc-700 pl-5 pb-1 md:pb-0 text-[#0049EF]">12:00 PM</h2>
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">opening workshop</h5>
-            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">Introduction to UX Design: Discover how to craft user-centered interfaces.</h2>
-            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase md:pb-10 pb-5">Introduction to UX Design: Discover how to craft user-centered interfaces.</h2>
+            <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center md:text-xl bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
-          </button>
+          </a>
         </div>
       </div>
       <div className="h-fit w-full relative">
@@ -47,10 +49,12 @@ export default function EventHighlights() {
                 <h2 className="uppercase border-l-[1px] md:text-[8vw] text-2xl border-b-[1px] leading-none border-zinc-700 pl-5 pb-1 md:pb-0 text-[#0049EF]">12:00 PM</h2>
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">workshop</h5>
-            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">Figma & No-Code Tools Workshop: Turn ideas into apps with zero coding</h2>
-            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase md:pb-10 pb-5">Figma & No-Code Tools Workshop: Turn ideas into apps with zero coding</h2>
+            <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center md:text-xl bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
-          </button>
+          </a>
         </div>
       </div>
       <div className="h-fit w-full relative">
@@ -69,10 +73,12 @@ export default function EventHighlights() {
                 <h2 className="uppercase border-l-[1px] md:text-[8vw] text-2xl border-b-[1px] leading-none border-zinc-700 pl-5 pb-1 md:pb-0 text-[#0049EF]">12:00 PM</h2>
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">workshop</h5>
-            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">CODE HANDOFF + HACKATHON KICKOFF: Code a simple UI in React & Tailwind</h2>
-            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase md:pb-10 pb-5">CODE HANDOFF + HACKATHON KICKOFF: Code a simple UI in React & Tailwind</h2>
+            <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center md:text-xl bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
-          </button>
+          </a>
         </div>
       </div>
       <div className="h-fit w-full relative">
@@ -91,10 +97,12 @@ export default function EventHighlights() {
                 <h2 className="uppercase border-l-[1px] md:text-[8vw] text-2xl border-b-[1px] leading-none border-zinc-700 pl-5 pb-1 md:pb-0 text-[#0049EF]">24 hrs</h2>
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">Hackathon</h5>
-            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">LIVE HACKATHON RESULTS: submit your final design and evaluation by experts.</h2>
-            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase md:pb-10 pb-5">LIVE HACKATHON RESULTS: submit your final design and evaluation by experts.</h2>
+            <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center md:text-xl bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
-          </button>
+          </a>
         </div>
       </div>
       <div className="h-fit w-full relative">
@@ -113,10 +121,12 @@ export default function EventHighlights() {
                 <h2 className="uppercase border-l-[1px] md:text-[8vw] text-2xl border-b-[1px] leading-none border-zinc-700 pl-5 pb-1 md:pb-0 text-[#0049EF]">12:00 PM</h2>
             </div>
             <h5 className="uppercase tracking-wider md:text-xl text-sm text-[#0049EF] md:py-5 py-3">GUEST WORKSHOP</h5>
-            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase">expert pannel & Industry Insights: Learn from experts and clear your doubts</h2>
-            <button className="bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <h2 className="lg:text-4xl md:text-2xl text-lg tracking-wide font-medium uppercase md:pb-10 pb-5">expert pannel & Industry Insights: Learn from experts and clear your doubts</h2>
+            <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center md:text-xl bg-transparent border md:mt-5 mt-3 border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
             EXPLORE EVENTS
-          </button>
+          </a>
         </div>
       </div>
     </div>

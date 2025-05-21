@@ -138,9 +138,11 @@ export default function Home() {
                 digital solutions, showcase your skills, and challenge yourself in
                 a dynamic, creative setting.
               </p>
-              <button className="bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+              <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+                target="_blank"
+                rel="noopener noreferrer" className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
                 EXPLORE HACKATHON
-              </button>
+              </a>
             </div>
 
             {/* Card 3: Speakers */}
@@ -208,9 +210,9 @@ export default function Home() {
             <h4 className="text-zinc-400 pb-5 md:pt-0 pt-1">
               Discover exciting sessions and speakers.lg:
             </h4>
-            <button className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <a href="#workshop-highlights" className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
               CHECK THE SCHEDULE
-            </button>
+            </a>
           </div>
         </div>
       </div>

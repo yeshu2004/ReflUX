@@ -68,10 +68,10 @@ export default function Navbar() {
       <div>
         <div className="flex justify-between lg:items-end items-center w-full h-full">
           <h1 className="md:text-4xl text-2xl font-semibold">ReflUX</h1>
-          <nav className="gap-7 text-lg lg:flex hidden">
+          <nav className="gap-7 text-lg lg:flex hidden font-medium">
             <a href="#workshop-highlights" className="hover:text-gray-300 transition scroll-smooth">SCHEDULE</a>
             <a href="#speakers" className="hover:text-gray-300 transition">SPEAKERS</a>
-            <a href="#faqs" className="hover:text-gray-300 transition">FAQS</a>
+            {/* <a href="#faqs" className="hover:text-gray-300 transition">FAQS</a> */}
             <a href="#about" className="hover:text-gray-300 transition">ABOUT</a>
           </nav>
           <div className="gap-4 lg:flex hidden font-medium">
