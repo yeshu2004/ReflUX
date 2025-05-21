@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <div className="relative md:h-[100dvh] h-[85vh] text-white font-clash overflow-hidden bg-[#0F0D18]">
+      <div className="relative md:h-[100dvh] h-[85dvh] text-white font-clash overflow-hidden bg-[#0F0D18]">
         <Image
           src="/bgimg.webp"
           alt="Background"
