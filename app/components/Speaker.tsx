@@ -36,7 +36,7 @@ export default function Speaker() {
             
             <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
               <Link href={'https://www.linkedin.com/in/saptarshipr/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
-              VISIT LINKDIN
+              VISIT LINKEDIN
             </Link>
             <Link href={'https://www.instagram.com/saptarshiux?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT INSTAGRAM

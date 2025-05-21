@@ -132,14 +132,14 @@ export default function Home() {
             {/* Card 2: Events */}
             <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left ">
               <p className="md:text-[13vw] text-9xl leading-none mb-2">1</p>
-              <p className="lg:text-3xl text-xl font-medium mb-2">HACKTHON</p>
+              <p className="lg:text-3xl text-xl font-medium mb-2">HACKATHON</p>
               <p className="text-gray-300 mb-6 lg:text-lg tmd:ext-sm">
                 Compete in ReflUX’s 1-day hackathon! Team up to create real-world
                 digital solutions, showcase your skills, and challenge yourself in
                 a dynamic, creative setting.
               </p>
               <button className="bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
-                EXPLORE HACKTHON
+                EXPLORE HACKATHON
               </button>
             </div>
 

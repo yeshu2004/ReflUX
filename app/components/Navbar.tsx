@@ -148,7 +148,7 @@ export default function Navbar() {
                   ABOUT
                 </motion.a>
                 <motion.button
-                  className="px-5 py-2 rounded-full border-2 border-zinc-700 text-white hover:bg-gray-800 transition text-lg flex items-center justify-center gap-5" 
+                  className="px-5 py-2 rounded-full border border-zinc-700 text-white hover:bg-gray-800 transition text-lg flex items-center justify-center gap-5" 
                   onClick={toggleMenu}
                   variants={itemVariants}
                   initial={{opacity: 0}}
