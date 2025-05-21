@@ -11,8 +11,7 @@ import Lenis from "lenis";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-
- const [mobileHeight, setMobileHeight] = useState<string | undefined>();
+  const [mobileHeight, setMobileHeight] = useState<string | undefined>();
 
   useEffect(() => {
     // Set --vh
@@ -43,13 +42,14 @@ export default function Home() {
       lenis.destroy();
       window.removeEventListener("resize", setVH);
     };
-  }, []);;
-
+  }, []);
 
   return (
     <div className="">
-      <div style={mobileHeight ? { height: mobileHeight } : {}}
-      className="relative md:h-[100vh] text-white font-clash overflow-hidden bg-[#0F0D18]">
+      <div
+        style={mobileHeight ? { height: mobileHeight } : {}}
+        className="relative md:h-[100vh] text-white font-clash overflow-hidden bg-[#0F0D18]"
+      >
         <Image
           src="/bgimg.webp"
           alt="Background"
@@ -72,8 +72,14 @@ export default function Home() {
                 5-day online sprint designed to bridge the gap between UX design
                 and technical execution
               </h5>
-              <button className="cursor-pointer hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition md:flex font-medium">
+              <button className="lg:block cursor-pointer hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white hover:text-black transition font-medium">
                 <a href="#workshop-highlights">EXPLORE EVENTS</a>
+              </button>
+                            <button className="cursor-pointer lg:hidden mt-6 px-8 py-3 lg:text-[2.2vw] md:text-[2.5vw] text-2xl leading-none rounded-full border border-gray-800 hover:bg-white md:flex hover:text-black transition hidden font-medium">
+                <a href="#workshop-highlights" className="flex items-center justify-between gap-2">BUY E-TICKETS
+              <span className="text-xl">
+                <MdArrowOutward />
+              </span></a>
               </button>
             </div>
             <div className="w-1/2 text-left flex items-center">
@@ -99,12 +105,17 @@ export default function Home() {
             <button className="hidden lg:block my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
               <a href="#workshop-highlights">EXPLORE EVENTS</a>
             </button>
-            <button className="tracking-wider flex items-center justify-center gap-2 lg:hidden my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full">
+            <a
+              href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tracking-wider flex items-center justify-center gap-2 lg:hidden my-6 px-8 py-3 text-[4vw] leading-none rounded-full border border-gray-700 hover:bg-white hover:text-black transition w-full"
+            >
               BUY E-TICKETS
               <span className="text-xl">
-                                  <MdArrowOutward />
-                                </span>
-            </button>
+                <MdArrowOutward />
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -121,10 +132,14 @@ export default function Home() {
               <p className="lg:text-3xl text-xl font-medium mb-2">DAYS</p>
               <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
                 Join a 5-day online sprint by The UX Club of VIT Bhopal
-                University! ReflUX teaches UX design and tech skills using Figma,
-                no-code tools, and web frameworks to build digital prototypes.
+                University! ReflUX teaches UX design and tech skills using
+                Figma, no-code tools, and web frameworks to build digital
+                prototypes.
               </p>
-              <a href="#workshop-highlights" className="text-center  bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+              <a
+                href="#workshop-highlights"
+                className="text-center  bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
+              >
                 VIEW SCHEDULE
               </a>
             </div>
@@ -134,13 +149,16 @@ export default function Home() {
               <p className="md:text-[13vw] text-9xl leading-none mb-2">1</p>
               <p className="lg:text-3xl text-xl font-medium mb-2">HACKATHON</p>
               <p className="text-gray-300 mb-6 lg:text-lg tmd:ext-sm">
-                Compete in ReflUX’s 1-day hackathon! Team up to create real-world
-                digital solutions, showcase your skills, and challenge yourself in
-                a dynamic, creative setting.
+                Compete in ReflUX’s 1-day hackathon! Team up to create
+                real-world digital solutions, showcase your skills, and
+                challenge yourself in a dynamic, creative setting.
               </p>
-              <a href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
+              <a
+                href="https://unstop.com/p/reflux-vellore-institute-of-technology-bhopal-1482156"
                 target="_blank"
-                rel="noopener noreferrer" className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+                rel="noopener noreferrer"
+                className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
+              >
                 EXPLORE HACKATHON
               </a>
             </div>
@@ -154,7 +172,10 @@ export default function Home() {
                 insights, offer project feedback, and inspire you to grow as a
                 designer or developer.
               </p>
-              <a href="#speakers" className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl font-medium text-sm hover:bg-white hover:text-gray-900 transition">
+              <a
+                href="#speakers"
+                className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl font-medium text-sm hover:bg-white hover:text-gray-900 transition"
+              >
                 VIEW SPEAKERS
               </a>
             </div>
@@ -191,10 +212,10 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 justify-center"
               >
-              get your ticket
-              <span className="text-xl">
-                    <MdArrowOutward />
-                  </span>
+                get your ticket
+                <span className="text-xl">
+                  <MdArrowOutward />
+                </span>
               </a>
             </button>
           </div>
@@ -210,7 +231,10 @@ export default function Home() {
             <h4 className="text-zinc-400 pb-5 md:pt-0 pt-1">
               Discover exciting sessions and speakers.lg:
             </h4>
-            <a href="#workshop-highlights" className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition">
+            <a
+              href="#workshop-highlights"
+              className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
+            >
               CHECK THE SCHEDULE
             </a>
           </div>
@@ -218,7 +242,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
