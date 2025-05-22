@@ -14,7 +14,7 @@ export default function Speaker() {
               <Image alt="" src={'/atul.jpg'} fill priority quality={75} className="object-cover object-center"/>
             </div>
             <h2 className="uppercase pt-5 tracking-wider font-medium text-xl">atul khola</h2>
-            <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">Design & Product at CRED | Founded DesignDrug.co | 50K+ on Linkedin</h3>
+            <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">Founded DesignDrug.co | Ex Design & Product at CRED | 50K+ on Linkedin</h3>
             
             <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
               <Link href={'https://www.linkedin.com/in/atulkhola/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border text-center border-zinc-700 rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
