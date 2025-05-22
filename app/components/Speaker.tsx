@@ -20,7 +20,7 @@ export default function Speaker() {
               <Link href={'https://www.linkedin.com/in/atulkhola/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border text-center border-zinc-700 rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT LINKEDIN
             </Link>
-            <Link href={'/https://www.instagram.com/pixelandpump?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+            <Link href={'https://www.instagram.com/pixelandpump?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT INSTAGRAM
             </Link>
             </div>
