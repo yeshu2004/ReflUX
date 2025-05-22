@@ -6,20 +6,28 @@ import Image from "next/image";
 const logos = [
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
   "/clublogo.png",
   "/vitblogo.webp",
+  "/iic-logo.png",
 ];
 
 export default function InfiniteCarousel() {
