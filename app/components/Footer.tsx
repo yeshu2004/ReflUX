@@ -26,8 +26,8 @@ export default function Footer() {
               {/* Left Side Text */}
               <h1 className="text-zinc-400 hidden md:block">
                 THIS WEBSITE WAS MADE FOR{" "}
-                <span className="text-white">UX CLUB</span>. CLUB BY{" "}
-                <span className="text-white">VIT BHOPAL UNIVERSITY</span>
+                <span className="text-white">UX CLUB</span>. BY{" "}
+                <span className="text-white"><a href="https://www.linkedin.com/in/yeshu-agarwal-linkdedin/">YESHU</a></span>
               </h1>
 
               {/* Right Side Social Links */}
