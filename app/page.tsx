@@ -238,7 +238,7 @@ export default function Home() {
             </h4>
             <a
               href="#workshop-highlights"
-              className="bg-transparent border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
+              className="bg-transparent text-center border uppercase border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
             >
               CHECK THE SCHEDULE
             </a>
