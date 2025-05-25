@@ -74,8 +74,8 @@ export default function Speaker() {
               <Link href={'https://www.linkedin.com/in/charvidesigns/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT LINKEDIN
             </Link>
-            <Link href={''} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
-              VISIT INSTAGRAM
+            <Link href={'https://www.charvim.com/'} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT PROFILE
             </Link>
             </div>
           </div>
@@ -92,8 +92,8 @@ export default function Speaker() {
               <Link href={'https://www.linkedin.com/in/shailja-sharma-414b7a208/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
               VISIT LINKEDIN
             </Link>
-            <Link href={''} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
-              VISIT INSTAGRAM
+             <Link href={'https://dribbble.com/Shailja_10'} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT DRIBBBLE
             </Link>
             </div>
           </div>
