@@ -79,6 +79,24 @@ export default function Speaker() {
             </Link>
             </div>
           </div>
+            
+            {/* Card 5 */}
+           <div className="rounded-lg p-2 text-left border border-gray-700">
+            <div className="bg-black h-[50vh] rounded-lg w-full overflow-hidden relative">
+              <Image alt="" src={'/ShailjaSharma.jpeg'} fill priority quality={75} className="object-cover object-center"/>
+            </div>
+            <h2 className="uppercase pt-5 tracking-wider font-medium text-xl">Shailja Sharma</h2>
+            <h3 className="text-zinc-400 text-sm uppercase tracking-wider pb-5">UX Designer at Bajaj Finserv Health | M.des NIFT, Delhi (21-23)</h3>
+            
+            <div className="lg:flex lg:flex-row flex flex-col w-full gap-2 items-center">
+              <Link href={'https://www.linkedin.com/in/shailja-sharma-414b7a208/?originalSubdomain=in'}  className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT LINKEDIN
+            </Link>
+            <Link href={''} className="w-full lg:w-fit bg-transparent border border-zinc-700 text-center rounded-full px-6 py-2 text-sm hover:bg-white hover:text-gray-900 transition">
+              VISIT INSTAGRAM
+            </Link>
+            </div>
+          </div>
         </div>
         </div>
   )
