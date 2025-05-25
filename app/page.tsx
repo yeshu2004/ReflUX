@@ -170,10 +170,10 @@ export default function Home() {
 
             {/* Card 3: Speakers */}
             <div className="border-zinc-800 border rounded-lg lg:px-12 lg:py-10 md:p-6 p-5 flex flex-col text-left">
-              <p className="md:text-[13vw] text-9xl leading-none mb-2">4</p>
+              <p className="md:text-[13vw] text-9xl leading-none mb-2">5</p>
               <p className="lg:text-3xl text-xl font-medium mb-2">SPEAKERS</p>
               <p className="text-gray-300 mb-6 lg:text-lg md:text-sm">
-                Hear from 2 industry experts at ReflUX! They’ll share UX design
+                Hear from 5 industry experts at ReflUX! They’ll share UX design
                 insights, offer project feedback, and inspire you to grow as a
                 designer or developer.
               </p>
