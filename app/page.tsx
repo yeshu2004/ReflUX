@@ -164,7 +164,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-center bg-transparent border border-zinc-800 rounded-full px-6 py-2 lg:text-2xl text-sm font-medium hover:bg-white hover:text-gray-900 transition"
               >
-                EXPLORE HACKATHON
+                VIEW HACKATHON
               </a>
             </div>
 
